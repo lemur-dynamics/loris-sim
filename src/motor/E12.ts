@@ -41,7 +41,11 @@ export class E12 extends Motor {
 		super(thrustCurve, simDuration / accuracy, accuracy);
 	}
 
-	getDataSheetUrl(): string {
+	public getDataSheetUrl(): string {
 		return this.dataSheetUrl;
+	}
+
+	public getName(): string {
+		return "Estes E12";
 	}
 }

@@ -36,4 +36,8 @@ export class Motor {
 	public getThrustCurve(): number[] {
 		return this.interpolatedThrustCurve;
 	}
+
+	public getRawThrustCurve(): number[][] {
+		return this.rawThrustCurve;
+	}
 }
